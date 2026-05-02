@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Uploaded curve files (the loader writes temporary copies into data/)
+data/_uploaded_*
+
+# Notebook checkpoints
+.ipynb_checkpoints/
